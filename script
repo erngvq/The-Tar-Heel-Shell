@@ -1,0 +1,8 @@
+echo "Beginning Script"
+echo
+pwd
+ls -l
+cd ..
+pwd
+echo
+echo "Ending Script"
