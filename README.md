@@ -49,7 +49,7 @@ If you start thsh with -d, it displays debugging info on **stderr**:
 Example: `./thsh -d`
 
 - Every command executed says **RUNNING: [cmd]**, where cmd is the command. For instance, if you run ls -l, thsh should print **RUNNING: [ls]**
-- When the command ends it says **ENDED: [cmd] (ret=0)** and shows the return value from run_command
+- When the command ends, it outputs **ENDED: [cmd] (ret=0)** along with the return value from run_command
 
 **Note:** Debugging support is also implemented when running a script in non-interactive mode:
 
